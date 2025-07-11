@@ -11,11 +11,11 @@
 
 
 /* heading */
+
 header{
     background-image: url(../image/Hero-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 
@@ -72,14 +72,41 @@ nav{
     color: #252432;
    
 }
-.p{
+.banner-subtiltle{
     font-size: 24px;
     font-weight: 20px;
-    color: #454455;
+    color: #6f6e78;
     
 }
 
 .wc-mini{
     border-radius: 48px;
 }
+/* user section */
+.user{
+    background-color: #c0c0ff;
+    border-radius:24px;
+   margin: 130px 80px 140px  100px ;
+}
+.user-title{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.user-data{
+    display: flex;
+    justify-content: space-around;
+}
+.data-h1{
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0 ;
+    padding: 0;
 
+}
+.data-subtitle{
+    font-size: 20px;
+    font-weight: 50px;
+    color: #6a6262 ;
+}
