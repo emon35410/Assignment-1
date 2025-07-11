@@ -1,0 +1,85 @@
+.plus-jakarta-sans-normal {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.plus-jakarta-sans-raleway {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* heading */
+header{
+    background-image: url(../image/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    
+}
+.heading-h{
+    font-size: 34px;
+    font-weight: 900px;
+    color: #4E47FF;
+}
+
+.btn-primary{
+    text-decoration: none;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: yellowgreen;
+}
+.first-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    padding-bottom: 100px;
+}
+
+/* main part */
+/* Section Banner */
+.banner{
+    display: flex;
+  justify-content: space-between;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 120px;
+    align-items: center;
+}
+
+
+.h2-banner{
+    font-size: 35px;
+    font-weight: bold;
+    color: #252432;
+   
+}
+.p{
+    font-size: 24px;
+    font-weight: 20px;
+    color: #454455;
+    
+}
+
+.wc-mini{
+    border-radius: 48px;
+}
+
