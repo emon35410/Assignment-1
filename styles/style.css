@@ -15,7 +15,8 @@
 header{
     background-image: url(../image/Hero-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover; 
+
 }
 
 
@@ -23,7 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+   
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
@@ -42,6 +43,7 @@ nav{
     padding: 12px 36px;
     border-radius: 12px;
     cursor: pointer;
+    border: none;
 }
 .btn-primary:hover{
     background-color: yellowgreen;
@@ -109,4 +111,70 @@ nav{
     font-size: 20px;
     font-weight: 50px;
     color: #6a6262 ;
+}
+
+/* form part */
+.touch-section{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+     background-color: #D6DDED;
+     align-items: center;
+   
+}
+.touch-section-title{
+    font-weight: bold;
+    font-size: 97px;
+    padding-left: 150px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 100px;
+   
+}
+.form input[type="text"], input[type="email"] {
+    border-radius: 10px;
+    padding: 18px 100px 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+}
+textarea{
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 100px;
+   padding-bottom: 10px;
+}
+.footer-t{
+    font-weight: 900px;
+    font-size: 100px;
+    color: #9057FF;
+}
+.footer-description{
+    color: #96959c;
+}
+footer ul{
+    list-style: none;
+    
+    display: flex;
+    gap: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #8987A1;
+
 }
